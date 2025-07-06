@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.hero,
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+nav {
+  justify-content: space-between;
+  padding: 12px 0;
+  margin-bottom: 48px;
+}
+
+ul {
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero {
+  padding-bottom: 48px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.call-to-action {
+  gap: 48px;
+}
+
+.left {
+  flex-direction: column;
+}
+
+.hero-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.right img {
+  height: 200px;
+  width: 450px;
+}
+
+.left > button {
+  background-color: rgb(0, 102, 255);
+  color: #e5e7eb;
+  padding: 8px 16px;
+}
